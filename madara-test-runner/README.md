@@ -55,7 +55,7 @@ logs.
 ## Parallel instances
 
 Note that cargo might run tests in parallel meaning that there can be multiple
-running Madara instance at a single point of time. In order to avoid concurrent
+running Madara instance at a single point in time. In order to avoid concurrent
 access to e.g. config files you can override Madara base path and use unique
 temporary directories for each instance.
 
